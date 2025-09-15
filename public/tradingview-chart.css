@@ -1,0 +1,25 @@
+/* TradingView Chart Custom Styles */
+.tradingview-widget-container {
+  background-color: #1a1a1a !important;
+}
+
+.tv-lightweight-charts {
+  background-color: #1a1a1a !important;
+}
+
+/* Dark theme overrides */
+.chart-container {
+  background: #1a1a1a !important;
+}
+
+.pane {
+  background: #1a1a1a !important;
+}
+
+.layout__area--right {
+  background: #1a1a1a !important;
+}
+
+.layout__area--center {
+  background: #1a1a1a !important;
+}
