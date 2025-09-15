@@ -43,7 +43,7 @@ export function CoinList() {
       return;
     }
 
-    if (window.confirm(`${coinSymbol} coin\'ini silmek istediğinizden emin misiniz?`)) {
+    if (window.confirm(`${coinSymbol} coinini silmek istediğinizden emin misiniz?`)) {
       try {
         deleteCoin(coinId);
         forceUpdate({});

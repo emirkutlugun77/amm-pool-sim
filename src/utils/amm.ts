@@ -140,7 +140,6 @@ export class AMMCalculator {
 
     // Create OHLC data point
     const now = Date.now();
-    const lastPricePoint = pool.priceHistory[pool.priceHistory.length - 1];
     
     // Always create new candle for each trade to show activity
     let newPriceHistory = [...pool.priceHistory];
